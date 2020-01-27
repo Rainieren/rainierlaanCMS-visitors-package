@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Rainieren\Visitors\VisitorServiceProvider::class,
 
         /*
          * Application Service Providers...

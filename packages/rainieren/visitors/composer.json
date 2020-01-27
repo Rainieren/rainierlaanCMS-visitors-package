@@ -1,0 +1,13 @@
+{
+    "name": "rainieren/visitors",
+    "description": "This package will add a visitor count to the CMS with some graphs and extra settings",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rainier Laan",
+            "email": "rainier.laan@home.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
