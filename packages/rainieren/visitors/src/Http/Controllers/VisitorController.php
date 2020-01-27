@@ -1,6 +1,6 @@
 <?php
 
-namespace Rainieren\Visitors\Controllers;
+namespace Rainieren\Visitors\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

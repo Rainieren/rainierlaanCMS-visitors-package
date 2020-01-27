@@ -15,7 +15,7 @@ class VisitorServiceProvider extends ServiceProvider
     public function register()
     {
         // Controllers
-        $this->app->make('Rainieren\Visitors\Controllers\VisitorController');
+        $this->app->make('Rainieren\Visitors\Http\Controllers\VisitorController');
         // Views
         $this->loadViewsFrom(__DIR__.'/resources/views', 'visitors');
     }
