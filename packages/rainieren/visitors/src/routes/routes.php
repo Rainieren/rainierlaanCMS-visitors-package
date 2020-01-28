@@ -1,4 +1,4 @@
 <?php
 
 
-Route::get('visitors', 'Rainieren\Visitors\Http\Controllers\VisitorController@index');
+Route::get('visitors', '\Rainieren\Visitors\Http\Controllers\VisitorController@index');
