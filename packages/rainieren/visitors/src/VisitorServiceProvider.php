@@ -18,6 +18,8 @@ class VisitorServiceProvider extends ServiceProvider
         $this->app->make('Rainieren\Visitors\Http\Controllers\VisitorController');
         // Views
         $this->loadViewsFrom(__DIR__.'/resources/views', 'visitors');
+        // Migrations
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
 
     /**
