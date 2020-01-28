@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f9623f-a031-411b-9d34-06fc3f097390" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/database/migrations/2020_01_28_084151_create_visitors_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,11 +134,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src/database/migrations" />
       <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src/Http" />
       <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src/Controllers" />
       <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src/routes" />
       <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src" />
-      <recent name="$PROJECT_DIR$/packages/rainieren/visitors/src/Providers" />
     </key>
   </component>
   <component name="RunManager">
@@ -158,7 +158,9 @@
       <option name="presentableId" value="Default" />
       <updated>1580147082276</updated>
       <workItem from="1580147084382" duration="6286000" />
-      <workItem from="1580199847169" duration="83000" />
+      <workItem from="1580199847169" duration="545000" />
+      <workItem from="1580200703769" duration="48000" />
+      <workItem from="1580200917757" duration="18000" />
     </task>
     <servers />
   </component>
