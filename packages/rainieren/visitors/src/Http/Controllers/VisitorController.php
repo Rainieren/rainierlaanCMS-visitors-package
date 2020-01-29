@@ -14,7 +14,7 @@ class VisitorController extends Controller
      */
     public function index()
     {
-        return view('visitors::home');
+        return view('visitors::index');
     }
 
     /**
