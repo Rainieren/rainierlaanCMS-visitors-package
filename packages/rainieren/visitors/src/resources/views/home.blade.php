@@ -1,3 +1,3 @@
-{{--@extends('layouts.layouts.backend')--}}
+@extends('layouts.layouts.backend')
 
 <h1>Visitors page</h1>
