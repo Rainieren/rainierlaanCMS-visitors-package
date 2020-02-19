@@ -14,6 +14,17 @@ class VisitorServiceProvider extends ServiceProvider
      */
     public function register()
     {
+
+    }
+
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     * @throws \Illuminate\Contracts\Container\BindingResolutionException
+     */
+    public function boot()
+    {
         // Controllers
         $this->app->make('Rainieren\Visitors\Http\Controllers\VisitorController');
         // Views
@@ -23,15 +34,7 @@ class VisitorServiceProvider extends ServiceProvider
         ]);
         // Migrations
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-    }
 
-    /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
-    public function boot()
-    {
         include __DIR__ . '/routes/routes.php';
     }
 }
