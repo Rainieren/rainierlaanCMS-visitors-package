@@ -4,7 +4,7 @@
     <list default="true" id="24f9623f-a031-411b-9d34-06fc3f097390" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rainieren/visitors/src/Http/Controllers/VisitorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/Http/Controllers/VisitorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rainieren/visitors/src/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rainieren/visitors/src/VisitorServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/VisitorServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +164,9 @@
       <workItem from="1580200917757" duration="18000" />
       <workItem from="1580243373857" duration="432000" />
       <workItem from="1580311037602" duration="1034000" />
+      <workItem from="1581323309725" duration="13000" />
+      <workItem from="1582035168958" duration="1484000" />
+      <workItem from="1582046587402" duration="795000" />
     </task>
     <servers />
   </component>
