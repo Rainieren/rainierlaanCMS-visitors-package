@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f9623f-a031-411b-9d34-06fc3f097390" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/rainieren/visitors/src/routes/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/routes/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rainieren/visitors/src/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rainieren/visitors/src/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,8 @@
       <workItem from="1582035168958" duration="1484000" />
       <workItem from="1582046587402" duration="899000" />
       <workItem from="1582106442500" duration="15000" />
-      <workItem from="1582454751500" duration="1204000" />
+      <workItem from="1582454751500" duration="1911000" />
+      <workItem from="1582836746834" duration="655000" />
     </task>
     <servers />
   </component>
