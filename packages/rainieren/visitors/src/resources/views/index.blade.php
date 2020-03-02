@@ -7,51 +7,62 @@
                 <h3>{{ __('Visitors') }}</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card p-4 card-purple fadeInUp">
+        <div class="row my-5">
+            <div class="col-md-7">
+                <div class="card card-grey fadeInUp">
                     <div class="card-body">
-                        <h5 class="card-title text-center">{{ __('Total visitors') }}</h5>
-                        <h2>5.839</h2>
+                        <h5>{{ __('Visitors and Signups chart') }}</h5>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card p-4 card-purple fadeInUp">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">{{ __('This month visitors') }}</h5>
-                        <h2>5.839</h2>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card card-purple fadeInUp">
+                            <div class="card-body">
+                                <h5>{{ __('Total visitors') }}</h5>
+                                <h2>632 294</h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer text-right">
-                        14,3% less than last month
+                    <div class="col-md-6">
+                        <div class="card card-purple fadeInUp">
+                            <div class="card-body">
+                                <h5>{{ __('Visitors this month') }}</h5>
+                                <h2>235 843 <i class="far fa-arrow-alt-up"></i></h2>
+                            </div>
+                            <div class="card-footer">
+                                <small class="m-0">Last month 222 000 <i class="far fa-arrow-alt-up"></i></small>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card p-4 card-purple fadeInUp">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">{{ __('Total signups') }}</h5>
-                        <h2>4.392</h2>
+                    <div class="col-md-6">
+                        <div class="card card-purple fadeInUp">
+                            <div class="card-body">
+                                <h5>{{ __('Total Signups') }}</h5>
+                                <h2>174 324</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card p-4 card-purple fadeInUp">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">{{ __('This months signups') }}</h5>
-                        <h2>4.392</h2>
-                    </div>
-                    <div class="card-footer">
-                        28,7% less than last month
+                    <div class="col-md-6">
+                        <div class="card card-purple fadeInUp">
+                            <div class="card-body">
+                                <h5>{{ __('Signups this month') }}</h5>
+                                <h2>23 284 <i class="far fa-arrow-alt-up"></i></h2>
+                            </div>
+                            <div class="card-footer">
+                                <small class="m-0">Last month 14 021 <i class="far fa-arrow-alt-up"></i></small>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card p-4 card-grey fadeInUp">
+        <div class="row my-5">
+            <div class="col-md-7">
+                <div class="card card-grey fadeInUp">
                     <div class="card-body">
-                        <h5 class="card-title text-center">{{ __('Visitors and signups') }}</h5>
+                        <h5>{{ __('History') }}</h5>
                     </div>
                 </div>
             </div>
