@@ -29,11 +29,13 @@ class VisitorServiceProvider extends ServiceProvider
         $this->app->make('Rainieren\Visitors\Http\Controllers\VisitorController');
         // Views
         $this->loadViewsFrom(__DIR__.'/resources/views', 'visitors');
-        $this->publishes([
-            __DIR__.'/resources/views' => resource_path('views/visitors'),
-        ]);
         // Migrations
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+
+        $this->publishes([
+            __DIR__.'/resources/views' => resource_path('views/visitors'),
+            __DIR__.'/database/migrations' => database_path('migrations')
+        ]);
 
         include __DIR__ . '/routes/routes.php';
     }
